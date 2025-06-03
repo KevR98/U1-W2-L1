@@ -20,7 +20,7 @@ Esistono vari tipi di varibili che sono primitivi a cui assegnare un valore:
 - Stringa (testo);
 - Booleano (Vero(true) o Falso(false));
 - Null (Vuoto);
-- Undefined (privo di assegnazione ovvero);
+- Undefined (privo di assegnazione);
 
 +/
 
