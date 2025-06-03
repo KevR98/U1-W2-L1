@@ -76,7 +76,7 @@ console.log(myName2);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let sottrazione = x - 4;
+let sottrazione = 4 - x;
 console.log("La risposta è uguale a " + sottrazione);
 
 /* ESERCIZIO 7
@@ -93,5 +93,7 @@ let name2 = "John";
 let correctname = name1 === name2;
 console.log("I nomi sono uguali? " + correctname);
 
-let checkname = name1 === "john" || name2 === "john";
-console.log(checkname);
+//EXTRA
+
+let lowername = name1.toLocaleLowerCase() === name2.toLocaleLowerCase();
+console.log("I nomi sono entrambi in minuscolo? " + lowername);
